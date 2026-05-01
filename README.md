@@ -2,7 +2,7 @@
 
 A modern, full-stack team task management application built with **React**, **Node.js**, and **SQL/NoSQL database**. TeamFlow brings projects, tasks, and people together in one shared workspace, enabling teams to collaborate effectively with role-based access control and real-time task tracking.
 
-![TeamFlow](https://img.shields.io/badge/React-18.0+-blue) ![Node.js](https://img.shields.io/badge/Node.js-16+-green) ![License](https://img.shields.io/badge/License-MIT-yellow) ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+![TeamFlow](https://img.shields.io/badge/React-18.0+-blue) ![Node.js](https://img.shields.io/badge/Node.js-16+-green)  ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 
 ---
 
