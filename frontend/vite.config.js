@@ -7,12 +7,16 @@ export default defineConfig({
   server: {
     host: true,
     port: 5173,
-    allowedHosts: "all", // ✅ ADD THIS
   },
 
   preview: {
     host: true,
-    port: process.env.PORT || 4173,
-    allowedHosts: "all", // ✅ already correct
+    port: process.env.PORT || 3000,
+    allowedHosts: "all",
+  },
+
+  build: {
+    outDir: "dist",
+    sourcemap: false, // Set to true if you need debugging in production
   },
 });
