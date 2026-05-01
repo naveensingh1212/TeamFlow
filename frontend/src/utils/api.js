@@ -1,11 +1,12 @@
 import axios from 'axios';
 
-const BASE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:5000";
+// Get API URL from environment (set at build time)
+const BASE_URL = process.env.VITE_API_URL || "http://localhost:5000";
 
 const API = axios.create({
   baseURL: `${BASE_URL}/api`
 });
+
 export const hasAuthToken = () => Boolean(localStorage.getItem('token'));
 
 export const redirectToSignIn = () => {
